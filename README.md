@@ -19,14 +19,14 @@ This is a classic Snake game programmed in C, designed to run on the DE1-SoC boa
 
 **Game Instructions** <br />
 
-**Controls** <br /> <br />
+**Controls** <br />
  
  ● Up:0 <br />
  ● Left: 1 <br />
  ● Right: 2 <br />
  ● Down:3 <br />
 
-**Level Progression:** <br /> <br />
+**Level Progression:** <br />
  
  **1. Level 1:** <br />
  **● Objective**: Survive and accumulate points by consuming food items. <br />
@@ -48,9 +48,11 @@ This is a classic Snake game programmed in C, designed to run on the DE1-SoC boa
  **● Final Goal**: There's no specific score target; the player aims to survive as long as possible and achieve the highest score. <br />
  **● Difficulty**: Advanced, with intricate barriers and fast-paced gameplay. <br />
 
-**Game Over** <br /> <br />
+**Game Over** <br />
+
 The game will end if the snake collides with the wall or itself. <br />
 The final score will be displayed on the screen. <br />
 
-**Credits** <br /> <br />
+**Credits** <br />
+
 Developed by **Krishna Purwar**. <br />
