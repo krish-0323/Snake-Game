@@ -23,18 +23,19 @@ Three Levels of Difficulty: As the game progresses, each level presents a higher
 **Game Instructions**
 
 **Controls**
- ● Up:0\
- ● Left: 1\
- ● Right: 2\
- ● Down:3\
+ 
+ ● Up:0
+ ● Left: 1
+ ● Right: 2
+ ● Down:3
 
 **Level Progression:**
  
  **1. Level 1:**
- **● Objective**: Survive and accumulate points by consuming food items.\
- **● Initial State**: The player starts with a snake of minimal length in an empty grid.\
- **● Goal**:Reach ascore of 50 points to progress to the next level.\
- **● Difficulty**: Basic obstacles and simple layout.\
+ **● Objective**: Survive and accumulate points by consuming food items.
+ **● Initial State**: The player starts with a snake of minimal length in an empty grid.
+ **● Goal**:Reach ascore of 50 points to progress to the next level.
+ **● Difficulty**: Basic obstacles and simple layout.
  
  **2. Level 2:**
  **● Objective**: Continue navigating the snake through an increasingly complex environment.\
