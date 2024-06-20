@@ -9,15 +9,15 @@ This is a classic Snake game programmed in C, designed to run on the DE1-SoC boa
 
 **Getting Started** <br />
 
-**Hardware Requirements** <br /> <br />
+**Hardware Requirements** <br />
 1. DE1-SoC Board <br />
 2. VGA display (for output) <br />
 
-**Software Requirements** <br /> <br />
+**Software Requirements** <br />
 1. Quartus Prime (for compiling and uploading to DE1-SoC) <br />
 2. ARM DS-5 (for programming the HPS side of the DE1-SoC) <br />
 
-**Game Instructions** <br /> <br />
+**Game Instructions** <br />
 
 **Controls** <br /> <br />
  
