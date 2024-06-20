@@ -1,6 +1,6 @@
 # Snake-Game
 \
-**Overview** <br />
+**Overview** <br /> <br />
 This is a classic Snake game programmed in C, designed to run on the DE1-SoC board. The game features three levels of increasing difficulty, with each level increasing the number of potential collisions. The aim of the game is to control the snake to eat as many fruits as possible without running into the walls or itself.<br />
 
 **User Controls**: Use the arrow keys to control the direction of the snake. <br />
@@ -9,24 +9,24 @@ This is a classic Snake game programmed in C, designed to run on the DE1-SoC boa
 
 **Getting Started** <br />
 
-**Hardware Requirements** <br />
+**Hardware Requirements** <br /> <br />
 1. DE1-SoC Board <br />
 2. VGA display (for output) <br />
 
-**Software Requirements** <br />
+**Software Requirements** <br /> <br />
 1. Quartus Prime (for compiling and uploading to DE1-SoC) <br />
 2. ARM DS-5 (for programming the HPS side of the DE1-SoC) <br />
 
-**Game Instructions** <br />
+**Game Instructions** <br /> <br />
 
-**Controls** <br />
+**Controls** <br /> <br />
  
  ● Up:0 <br />
  ● Left: 1 <br />
  ● Right: 2 <br />
  ● Down:3 <br />
 
-**Level Progression:** <br />
+**Level Progression:** <br /> <br />
  
  **1. Level 1:** <br />
  **● Objective**: Survive and accumulate points by consuming food items. <br />
@@ -48,9 +48,9 @@ This is a classic Snake game programmed in C, designed to run on the DE1-SoC boa
  **● Final Goal**: There's no specific score target; the player aims to survive as long as possible and achieve the highest score. <br />
  **● Difficulty**: Advanced, with intricate barriers and fast-paced gameplay. <br />
 
-**Game Over** <br />
+**Game Over** <br /> <br />
 The game will end if the snake collides with the wall or itself. <br />
 The final score will be displayed on the screen. <br />
 
-**Credits** <br />
+**Credits** <br /> <br />
 Developed by **Krishna Purwar**. <br />
