@@ -1,6 +1,6 @@
-# Snake-Game\
+# Snake-Game
 \
-**Overview**\
+**Overview**
 This is a classic Snake game programmed in C, designed to run on the DE1-SoC board. The game features three levels of increasing difficulty, with each level increasing the number of potential collisions. The aim of the game is to control the snake to eat as many fruits as possible without running into the walls or itself.\
 
 **Features**\
