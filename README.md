@@ -1,5 +1,3 @@
-# Snake Game Repository Description for GitHub
-
 ## Snake Game
 
 ### Overview
