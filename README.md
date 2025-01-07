@@ -1,58 +1,60 @@
-# Snake-Game
+# Snake Game Repository Description for GitHub
 
-**Overview** <br /> <br />
-This is a classic Snake game programmed in C, designed to run on the DE1-SoC board. The game features three levels of increasing difficulty, with each level increasing the number of potential collisions. The aim of the game is to control the snake to eat as many fruits as possible without running into the walls or itself.<br />
+## Snake Game
 
-**User Controls**: Use the arrow keys to control the direction of the snake. <br />
-**Score Display**: The current score is displayed on the screen. <br />
-**Game Over Detection**: The game ends when the snake collides with the wall or itself. <br />
+### Overview
+Welcome to the **Snake Game** repository! This project is a classic Snake game implemented in **C** for the **DE1-SoC board**. The game features three levels of increasing difficulty, where players control a snake to eat fruits while avoiding collisions with walls or the snake's own body. The ultimate goal is to achieve the highest possible score while navigating through progressively challenging levels.
 
-**Getting Started** <br />
+---
 
-**Hardware Requirements** <br />
-1. DE1-SoC Board <br />
-2. VGA display (for output) <br />
+### Features
+- **Three Levels of Difficulty**:
+  - **Level 1**: Basic layout with minimal obstacles. Progress to the next level by scoring 50 points.
+  - **Level 2**: Moderate layout with increased obstacles. Unlock Level 3 by scoring 100 points.
+  - **Level 3**: Advanced layout with intricate barriers and faster gameplay. Survive as long as possible!
+- **User Controls**: 
+  - Arrow keys (Up, Down, Left, Right) to control the snake.
+- **Score Display**: Real-time score displayed on the screen.
+- **Game Over Detection**: Ends when the snake collides with walls or itself, displaying the final score.
 
-**Software Requirements** <br />
-1. Quartus Prime (for compiling and uploading to DE1-SoC) <br />
-2. ARM DS-5 (for programming the HPS side of the DE1-SoC) <br />
+---
 
-**Game Instructions** <br />
+### Requirements
+#### Hardware
+- **DE1-SoC Board**
+- **VGA Display**
 
-**Controls** <br />
- 
- ● Up:0 <br />
- ● Left: 1 <br />
- ● Right: 2 <br />
- ● Down:3 <br />
+#### Software
+- **Quartus Prime**: For compiling and uploading to the DE1-SoC.
+- **ARM DS-5**: For programming the HPS side of the DE1-SoC.
 
-**Level Progression:** <br />
- 
- **1. Level 1:** <br />
- **● Objective**: Survive and accumulate points by consuming food items. <br />
- **● Initial State**: The player starts with a snake of minimal length in an empty grid. <br />
- **● Goal**:Reach ascore of 50 points to progress to the next level. <br />
- **● Difficulty**: Basic obstacles and simple layout. <br />
- 
- **2. Level 2:** <br />
- **● Objective**: Continue navigating the snake through an increasingly complex environment. <br />
- **● Starting Condition**: Upon reaching a score of 50, the game advances automatically to Level 2. <br />
- **● Challenges**: The number of barriers and obstacles increases, requiring more strategic maneuvering. <br />
- **● Goal**:Cross a score of 100 to unlock the final level. <br />
- **● Difficulty**: Moderate, with tighter spaces and more obstacles to navigate around. <br />
- 
- **3. Level 3:**  <br />
- **● Objective**: Conquer the most difficult stage of the game. <br />
- **● UnlockCondition**: Achieve a score of 100 to unlock Level 3. <br />
- **● Challenge**: Introduces the most complex layout and obstacles, testing the player's agility and decision-making skills.<br />
- **● Final Goal**: There's no specific score target; the player aims to survive as long as possible and achieve the highest score. <br />
- **● Difficulty**: Advanced, with intricate barriers and fast-paced gameplay. <br />
+---
 
-**Game Over** <br />
+### Game Instructions
+#### Controls
+- **Up**: 0  
+- **Left**: 1  
+- **Right**: 2  
+- **Down**: 3  
 
-The game will end if the snake collides with the wall or itself. <br />
-The final score will be displayed on the screen. <br />
+#### Level Progression
+1. **Level 1**:  
+   - Start with a minimal-length snake in an empty grid.  
+   - Reach a score of 50 to unlock Level 2.  
+2. **Level 2**:  
+   - Navigate through a more complex environment with additional obstacles.  
+   - Score 100 to progress to Level 3.  
+3. **Level 3**:  
+   - Face the most challenging layout and obstacles.  
+   - Survive as long as possible and achieve the highest score!
 
-**Credits** <br />
+#### Game Over
+- The game ends when the snake collides with the wall or itself.
+- The final score is displayed on the screen.
 
-Developed by **Krishna Purwar**. <br />
+---
+
+### Credits
+This project was developed by **Krishna Purwar** as a demonstration of programming and hardware interfacing skills.  
+
+Feel free to explore, contribute, or use this project as a learning resource! 🎮
